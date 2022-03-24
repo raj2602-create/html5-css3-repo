@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/Dolphin/favicon.ico">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <div class="container">
+        <h1>User Form</h1>
+        <form>
+            <div>
+                <label>Username</label>
+                <input type="text" class="form-control w-50">
+            </div>
+            <br>
+            <div>
+                <label>Password</label>
+                <input type="password" class="form-control w-50">
+            </div>
+            <br>
+            <div>
+                <label>Comments</label>
+                <textarea class="form-control w-50"></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Subject</label>
+                <input type="checkbox" class="form-check-input">&nbsp;&nbsp; Maths&nbsp;&nbsp;
+                <input type="checkbox" class="form-check-input">&nbsp;&nbsp; Science&nbsp;&nbsp;
+                <input type="checkbox" class="form-check-input">&nbsp;&nbsp; English&nbsp;&nbsp;
+            </div>
+            <br>
+            <div>
+                <label>Gender</label>&nbsp;&nbsp;
+                <input type="radio" class="form-check-input" name="gender"> Female&nbsp;&nbsp;
+                <input type="radio" class="form-check-input" name="gender"> Male&nbsp;&nbsp;
+            </div>
+            <br>
+            <div>
+                <label>Country</label>
+                <select class="form-select w-50">
+                    <option value="">Select</option>
+                    <option value="1">India</option>
+                    <option value="2">America</option>
+                    <option value="3">Australia</option>
+                </select>
+            </div>
+            <br>
+            <br>
+            <div>
+                <label>Country</label>
+                <select class="form-select w-50" multiple>
+                    <option value="">Select</option>
+                    <option value="1">India</option>
+                    <option value="2">America</option>
+                    <option value="3">Australia</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <input type="file"><br><br>
+                <input type="file" accept="image/*"><br><br>
+                <input type="file" accept="application/pdf"><br><br>
+                <input type="file" accept=".csv"><br><br>
+                <input type="file" accept="application/vnd.ms-excel"><br><br>
+                <input type="file" accept="video/*"><br><br>
+            </div>
+            <input type="hidden" value="30" id="hdnStudentId">
+            <div>
+                <button type="button" class="btn btn-primary">Button</button>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <input type="button" value="Click Button" class="btn btn-primary">
+                <input type="submit" value="Click Submit" class="btn btn-primary">
+                <input type="reset" value="Reset" class="btn btn-warning"><br><br>
+                <input type="image" src="../images/Cat/favicon-32x32.png" alt="Bear">
+
+            </div>
+            <br><br><br>
+        </form>
+    </div>
+</body>
+</html>
